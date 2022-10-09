@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.letskodeit.base.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Application Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.letskodeit.testclasses.LoginTests">
+        <methods>
+          <include name="methodSetUp"/>
+          <include name="testLogin"/>
+          <include name="commonSetUp"/>
+          <include name="afterMethod"/>
+          <include name="commonTearDown"/>
+        </methods>
+      </class> <!-- com.letskodeit.testclasses.LoginTests -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

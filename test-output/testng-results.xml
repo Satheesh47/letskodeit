@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T14:44:07Z" name="Regression Test Suite" finished-at="2022-10-06T14:44:53Z" duration-ms="45429">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T14:44:07Z" name="Application Test" finished-at="2022-10-06T14:44:53Z" duration-ms="45429">
+      <class name="com.letskodeit.testclasses.AllCoursesTests">
+        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:29Z" name="commonSetUp" finished-at="2022-10-06T14:44:35Z" duration-ms="5830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:35Z" name="setUp" finished-at="2022-10-06T14:44:38Z" duration-ms="2908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="filterByCategory()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:38Z" name="filterByCategory" finished-at="2022-10-06T14:44:47Z" duration-ms="9010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByCategory -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:38Z" name="methodSetUp" finished-at="2022-10-06T14:44:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:47Z" name="methodSetUp" finished-at="2022-10-06T14:44:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifySearchCourse(java.lang.String)[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:47Z" name="verifySearchCourse" data-provider="verifySearchCourseData" finished-at="2022-10-06T14:44:49Z" duration-ms="2467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rest api]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCourse -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:49Z" name="methodSetUp" finished-at="2022-10-06T14:44:49Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="verifySearchCourse(java.lang.String)[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:49Z" name="verifySearchCourse" data-provider="verifySearchCourseData" finished-at="2022-10-06T14:44:52Z" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[javascript]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCourse -->
+        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:com.letskodeit.testclasses.AllCoursesTests@6bcbf05b]" started-at="2022-10-06T14:44:52Z" name="commonTearDown" finished-at="2022-10-06T14:44:53Z" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+      </class> <!-- com.letskodeit.testclasses.AllCoursesTests -->
+      <class name="com.letskodeit.testclasses.LoginTests">
+        <test-method is-config="true" signature="commonSetUp(java.lang.String)[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:07Z" name="commonSetUp" finished-at="2022-10-06T14:44:14Z" duration-ms="6996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonSetUp -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:14Z" name="methodSetUp" finished-at="2022-10-06T14:44:14Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:14Z" name="testInvalidLogin" finished-at="2022-10-06T14:44:20Z" duration-ms="5306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:20Z" name="afterMethod" finished-at="2022-10-06T14:44:23Z" duration-ms="3040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:23Z" name="methodSetUp" finished-at="2022-10-06T14:44:23Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="testLogin()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:23Z" name="testLogin" finished-at="2022-10-06T14:44:25Z" duration-ms="2285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:25Z" name="afterMethod" finished-at="2022-10-06T14:44:28Z" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="commonTearDown()[pri:0, instance:com.letskodeit.testclasses.LoginTests@458544e0]" started-at="2022-10-06T14:44:28Z" name="commonTearDown" finished-at="2022-10-06T14:44:29Z" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonTearDown -->
+      </class> <!-- com.letskodeit.testclasses.LoginTests -->
+    </test> <!-- Application Test -->
+  </suite> <!-- Regression Test Suite -->
+</testng-results>
