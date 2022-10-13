@@ -4,7 +4,7 @@ import java.io.File;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentManager {
@@ -28,11 +28,13 @@ public class ExtentManager {
 		log.info(path);
 		log.info("***** Report Path *****");
 		
-		ExtentSparkReporter htmlReporter = new ExtentSparkReporter(path);
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(path);
 		htmlReporter.config().setTheme(Theme.STANDARD);
 		htmlReporter.config().setDocumentTitle("Automation Run");
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setReportName(fileName);
+		htmlReporter.config().setAutoCreateRelativePathMedia(true);
+		htmlReporter.config().setAutoCreateRelativePathMedia(true);
 		
 		extent = new ExtentReports();
 		extent.setSystemInfo("Satheesh Automation", "Lets Kode It");

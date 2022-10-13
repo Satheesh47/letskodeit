@@ -18,6 +18,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.letskodeitcom.utilities.Constants;
 import com.letskodeitcom.utilities.Util;
 
 public class CustomDriver {
@@ -708,7 +710,7 @@ public class CustomDriver {
    */
   public String takeScreenshot(String methodName, String browserName) {
       String fileName = Util.getScreenshotName(methodName, browserName);
-      String screenshotDir = System.getProperty("user.dir") + "/screenshots/";
+      String screenshotDir = Constants.EXTENT_REPORT_DIRECTORY + "//screenshots//";
       new File(screenshotDir).mkdirs();
       String path = screenshotDir + fileName;
 

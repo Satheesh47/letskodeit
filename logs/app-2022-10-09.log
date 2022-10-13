@@ -1,0 +1,315 @@
+20:53:20.301 INFO  utilities.Util -Date and Time :: 10_09_2022 20_53_20
+20:53:20.307 INFO  utilities.ExtentManager -***** Report Path *****
+20:53:20.307 INFO  utilities.ExtentManager -C:\Users\sathe\eclipse-workspace\letskodeit/ExtentReport/AutomationReport_10_09_2022 20_53_20.html
+20:53:20.307 INFO  utilities.ExtentManager -***** Report Path *****
+20:53:20.467 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+20:53:20.467 INFO  base.TestListeners -These methods will be executed in this <test> tag
+20:53:20.467 INFO  base.TestListeners -filterByCategory
+20:53:20.467 INFO  base.TestListeners -verifySearchCourse
+20:53:20.467 INFO  base.TestListeners -testInvalidLogin
+20:53:20.467 INFO  base.TestListeners -testLogin
+20:53:20.488 INFO  base.WebDriverFactory -OS Name from system property :: win
+20:53:20.489 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+20:53:24.406 INFO  base.WebDriverFactory -Chrome browser initiated ...
+20:53:28.190 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+20:53:28.768 INFO  base.CustomDriver -Clicked On :: Login Link
+20:53:28.777 INFO  base.BaseTest -****** Before Method ******
+20:53:28.801 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+20:53:28.875 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+20:53:28.887 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+20:53:28.958 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abcd
+20:53:28.972 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+20:53:30.599 INFO  base.CustomDriver -Clicked On :: Login Button
+20:53:34.159 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+20:53:34.160 INFO  base.CheckPoint -test-invalidlogin-01.Invalid Login verification :-> PASS
+20:53:34.160 INFO  base.CheckPoint -Test Method Successful
+20:53:34.162 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testInvalidLogin
+20:53:34.170 INFO  testclasses.LoginTests -****** After Method ******
+20:53:37.212 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+20:53:37.218 INFO  base.BaseTest -****** Before Method ******
+20:53:37.233 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+20:53:37.332 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+20:53:37.340 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+20:53:37.414 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+20:53:37.421 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+20:53:39.438 INFO  base.CustomDriver -Clicked On :: Login Button
+20:53:39.453 INFO  base.CustomDriver -Element All courses link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+20:53:39.454 INFO  base.CustomDriver -Getting Text on element :: All courses link
+20:53:39.470 INFO  base.CustomDriver - The text is : ALL COURSES
+20:53:39.470 INFO  utilities.Util -Actual Text from Web Application UI --> ALL COURSES
+20:53:39.470 INFO  utilities.Util -Expected Text from Web Application UI --> All Courses
+20:53:39.470 INFO  utilities.Util -### Verification Contains !!!
+20:53:39.470 INFO  base.CheckPoint -test-login-01.Header verification :-> PASS
+20:53:39.482 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+20:53:39.482 INFO  base.CheckPoint -test-login-01.Login verification :-> PASS
+20:53:39.482 INFO  base.CheckPoint -Test Method Successful
+20:53:39.482 INFO  base.CheckPoint -Test Method Successful
+20:53:39.483 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+20:53:39.484 INFO  testclasses.LoginTests -****** After Method ******
+20:53:39.493 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+20:53:39.505 INFO  base.CustomDriver -Element User Account Icon found with locator: xpath=>//img[@class='zl-navbar-rhs-img ']
+20:53:39.549 INFO  base.CustomDriver -Clicked On :: User Account Icon
+20:53:39.552 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+20:53:39.603 INFO  base.CustomDriver -Element is clickable on the web page
+20:53:41.680 INFO  base.CustomDriver -Clicked On :: Logout link
+20:53:41.689 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+20:53:42.610 INFO  base.CustomDriver -Clicked On :: Login Link
+20:53:43.265 INFO  base.WebDriverFactory -OS Name from system property :: win
+20:53:43.265 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+20:53:44.829 INFO  base.WebDriverFactory -Chrome browser initiated ...
+20:53:48.534 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+20:53:49.124 INFO  base.CustomDriver -Clicked On :: Login Link
+20:53:49.138 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+20:53:49.207 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+20:53:49.218 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+20:53:49.285 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+20:53:49.296 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+20:53:51.050 INFO  base.CustomDriver -Clicked On :: Login Button
+20:53:51.542 INFO  base.BaseTest -****** Before Method ******
+20:53:51.559 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+20:53:57.390 INFO  base.CustomDriver -Clicked On :: All Courses Link
+20:53:57.390 INFO  utilities.Util -Wait 500 for  All Courses link ..
+20:53:57.921 INFO  base.CustomDriver -Element Category Dropdown found with locator: xpath=>//select[@name='categories']
+20:53:57.990 INFO  base.CustomDriver -Selected option : Software Development
+20:53:57.992 INFO  utilities.Util -Wait 2000 for  Selected courses results page ..
+20:54:00.021 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+20:54:00.021 INFO  base.CustomDriver -Actual courses count 3
+20:54:00.028 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+20:54:00.029 INFO  base.CheckPoint -test-filter-by-category-01.Filter by category verification :-> PASS
+20:54:00.029 INFO  base.CheckPoint -Test Method Successful
+20:54:00.029 INFO  base.TestListeners -onTestSuccess -> Test Method Name: filterByCategory
+20:54:00.046 INFO  base.BaseTest -****** Before Method ******
+20:54:00.057 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+20:54:01.242 INFO  base.CustomDriver -Clicked On :: All Courses Link
+20:54:01.779 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+20:54:01.857 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: rest api
+20:54:01.867 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+20:54:01.897 INFO  base.CustomDriver -Clicked On :: Search Course Button
+20:54:02.926 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+20:54:02.934 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+20:54:02.934 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+20:54:02.934 INFO  base.CheckPoint -Test Method Successful
+20:54:02.935 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+20:54:02.935 INFO  base.BaseTest -****** Before Method ******
+20:54:02.948 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+20:54:03.945 INFO  base.CustomDriver -Clicked On :: All Courses Link
+20:54:04.466 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+20:54:04.547 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript
+20:54:04.554 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+20:54:04.589 INFO  base.CustomDriver -Clicked On :: Search Course Button
+20:54:05.623 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+20:54:05.630 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+20:54:05.630 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+20:54:05.630 INFO  base.CheckPoint -Test Method Successful
+20:54:05.631 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+20:54:06.280 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+21:06:50.381 INFO  utilities.Util -Date and Time :: 10_09_2022 21_06_50
+21:06:50.387 INFO  utilities.ExtentManager -***** Report Path *****
+21:06:50.387 INFO  utilities.ExtentManager -C:\Users\sathe\eclipse-workspace\letskodeit/ExtentReport/AutomationReport_10_09_2022 21_06_50.html
+21:06:50.387 INFO  utilities.ExtentManager -***** Report Path *****
+21:06:50.536 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+21:06:50.537 INFO  base.TestListeners -These methods will be executed in this <test> tag
+21:06:50.537 INFO  base.TestListeners -filterByCategory
+21:06:50.537 INFO  base.TestListeners -verifySearchCourse
+21:06:50.537 INFO  base.TestListeners -testInvalidLogin
+21:06:50.537 INFO  base.TestListeners -testLogin
+21:06:50.553 INFO  base.WebDriverFactory -OS Name from system property :: win
+21:06:50.553 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+21:06:53.089 INFO  base.WebDriverFactory -Chrome browser initiated ...
+21:06:57.311 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:06:57.892 INFO  base.CustomDriver -Clicked On :: Login Link
+21:06:57.901 INFO  base.BaseTest -****** Before Method ******
+21:06:57.924 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:06:57.996 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+21:06:58.007 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:06:58.070 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abcd
+21:06:58.081 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:06:59.709 INFO  base.CustomDriver -Clicked On :: Login Button
+21:07:03.282 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:07:03.282 INFO  base.CheckPoint -test-invalidlogin-01.Invalid Login verification :-> PASS
+21:07:03.283 INFO  base.CheckPoint -Test Method Successful
+21:07:03.287 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testInvalidLogin
+21:07:03.294 INFO  testclasses.LoginTests -****** After Method ******
+21:07:06.339 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:07:06.341 INFO  base.BaseTest -****** Before Method ******
+21:07:06.360 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:07:06.463 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+21:07:06.470 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:07:06.546 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+21:07:06.554 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:07:08.616 INFO  base.CustomDriver -Clicked On :: Login Button
+21:07:08.631 INFO  base.CustomDriver -Element All courses link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:07:08.632 INFO  base.CustomDriver -Getting Text on element :: All courses link
+21:07:08.645 INFO  base.CustomDriver - The text is : ALL COURSES
+21:07:08.645 INFO  utilities.Util -Actual Text from Web Application UI --> ALL COURSES
+21:07:08.645 INFO  utilities.Util -Expected Text from Web Application UI --> All Courses
+21:07:08.645 INFO  utilities.Util -### Verification Contains !!!
+21:07:08.645 INFO  base.CheckPoint -test-login-01.Header verification :-> PASS
+21:07:08.656 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:07:08.656 INFO  base.CheckPoint -test-login-01.Login verification :-> PASS
+21:07:08.656 INFO  base.CheckPoint -Test Method Successful
+21:07:08.656 INFO  base.CheckPoint -Test Method Successful
+21:07:08.657 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+21:07:08.658 INFO  testclasses.LoginTests -****** After Method ******
+21:07:08.668 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:07:08.680 INFO  base.CustomDriver -Element User Account Icon found with locator: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:07:08.728 INFO  base.CustomDriver -Clicked On :: User Account Icon
+21:07:08.732 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+21:07:08.781 INFO  base.CustomDriver -Element is clickable on the web page
+21:07:10.873 INFO  base.CustomDriver -Clicked On :: Logout link
+21:07:10.881 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:07:11.789 INFO  base.CustomDriver -Clicked On :: Login Link
+21:07:12.449 INFO  base.WebDriverFactory -OS Name from system property :: win
+21:07:12.449 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+21:07:14.083 INFO  base.WebDriverFactory -Chrome browser initiated ...
+21:07:18.163 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:07:18.711 INFO  base.CustomDriver -Clicked On :: Login Link
+21:07:18.725 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:07:18.796 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+21:07:18.806 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:07:18.867 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+21:07:18.877 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:07:21.271 INFO  base.CustomDriver -Clicked On :: Login Button
+21:07:21.679 INFO  base.BaseTest -****** Before Method ******
+21:07:21.696 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:07:27.497 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:07:27.497 INFO  utilities.Util -Wait 500 for  All Courses link ..
+21:07:28.031 INFO  base.CustomDriver -Element Category Dropdown found with locator: xpath=>//select[@name='categories']
+21:07:28.100 INFO  base.CustomDriver -Selected option : Software Development
+21:07:28.101 INFO  utilities.Util -Wait 2000 for  Selected courses results page ..
+21:07:30.165 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:07:30.165 INFO  base.CustomDriver -Actual courses count 3
+21:07:30.173 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:07:30.173 INFO  base.CheckPoint -test-filter-by-category-01.Filter by category verification :-> PASS
+21:07:30.173 INFO  base.CheckPoint -Test Method Successful
+21:07:30.174 INFO  base.TestListeners -onTestSuccess -> Test Method Name: filterByCategory
+21:07:30.186 INFO  base.BaseTest -****** Before Method ******
+21:07:30.193 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:07:31.137 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:07:31.651 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+21:07:31.732 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: rest api
+21:07:31.742 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+21:07:31.774 INFO  base.CustomDriver -Clicked On :: Search Course Button
+21:07:32.806 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:07:32.813 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+21:07:32.814 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+21:07:32.814 INFO  base.CheckPoint -Test Method Successful
+21:07:32.815 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+21:07:32.815 INFO  base.BaseTest -****** Before Method ******
+21:07:32.828 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:07:34.021 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:07:34.547 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+21:07:34.629 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript
+21:07:34.637 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+21:07:34.677 INFO  base.CustomDriver -Clicked On :: Search Course Button
+21:07:35.690 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:07:35.697 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+21:07:35.697 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+21:07:35.697 INFO  base.CheckPoint -Test Method Successful
+21:07:35.698 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+21:07:36.353 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+21:08:30.798 INFO  utilities.Util -Date and Time :: 10_09_2022 21_08_30
+21:08:30.803 INFO  utilities.ExtentManager -***** Report Path *****
+21:08:30.804 INFO  utilities.ExtentManager -C:\Users\sathe\eclipse-workspace\letskodeit/ExtentReport/AutomationReport_10_09_2022 21_08_30.html
+21:08:30.804 INFO  utilities.ExtentManager -***** Report Path *****
+21:08:30.968 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+21:08:30.968 INFO  base.TestListeners -These methods will be executed in this <test> tag
+21:08:30.968 INFO  base.TestListeners -filterByCategory
+21:08:30.968 INFO  base.TestListeners -verifySearchCourse
+21:08:30.968 INFO  base.TestListeners -testInvalidLogin
+21:08:30.969 INFO  base.TestListeners -testLogin
+21:08:30.985 INFO  base.WebDriverFactory -OS Name from system property :: win
+21:08:30.985 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+21:08:33.459 INFO  base.WebDriverFactory -Chrome browser initiated ...
+21:08:37.301 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:08:37.884 INFO  base.CustomDriver -Clicked On :: Login Link
+21:08:37.892 INFO  base.BaseTest -****** Before Method ******
+21:08:37.912 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:08:37.983 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: test@email.com
+21:08:37.994 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:08:38.058 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abcd
+21:08:38.068 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:08:39.624 INFO  base.CustomDriver -Clicked On :: Login Button
+21:08:43.185 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:08:43.185 INFO  base.CheckPoint -test-invalidlogin-01.Invalid Login verification :-> PASS
+21:08:43.185 INFO  base.CheckPoint -Test Method Successful
+21:08:43.191 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testInvalidLogin
+21:08:43.205 INFO  testclasses.LoginTests -****** After Method ******
+21:08:46.241 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:08:46.242 INFO  base.BaseTest -****** Before Method ******
+21:08:46.259 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:08:46.358 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+21:08:46.365 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:08:46.434 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+21:08:46.441 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:08:48.446 INFO  base.CustomDriver -Clicked On :: Login Button
+21:08:48.462 INFO  base.CustomDriver -Element All courses link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:08:48.462 INFO  base.CustomDriver -Getting Text on element :: All courses link
+21:08:48.476 INFO  base.CustomDriver - The text is : ALL COURSES
+21:08:48.477 INFO  utilities.Util -Actual Text from Web Application UI --> ALL COURSES
+21:08:48.477 INFO  utilities.Util -Expected Text from Web Application UI --> All Courses
+21:08:48.477 INFO  utilities.Util -### Verification Contains !!!
+21:08:48.477 INFO  base.CheckPoint -test-login-01.Header verification :-> PASS
+21:08:48.487 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:08:48.487 INFO  base.CheckPoint -test-login-01.Login verification :-> PASS
+21:08:48.487 INFO  base.CheckPoint -Test Method Successful
+21:08:48.487 INFO  base.CheckPoint -Test Method Successful
+21:08:48.488 INFO  base.TestListeners -onTestSuccess -> Test Method Name: testLogin
+21:08:48.489 INFO  testclasses.LoginTests -****** After Method ******
+21:08:48.501 INFO  base.CustomDriver -Element List found with: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:08:48.516 INFO  base.CustomDriver -Element User Account Icon found with locator: xpath=>//img[@class='zl-navbar-rhs-img ']
+21:08:48.563 INFO  base.CustomDriver -Clicked On :: User Account Icon
+21:08:48.566 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be clickable
+21:08:48.616 INFO  base.CustomDriver -Element is clickable on the web page
+21:08:50.686 INFO  base.CustomDriver -Clicked On :: Logout link
+21:08:50.694 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:08:51.564 INFO  base.CustomDriver -Clicked On :: Login Link
+21:08:52.210 INFO  base.WebDriverFactory -OS Name from system property :: win
+21:08:52.210 INFO  base.WebDriverFactory -Driver Binary :: C:\Users\sathe\eclipse-workspace\letskodeit//drivers//chromedriver.exe
+21:08:53.727 INFO  base.WebDriverFactory -Chrome browser initiated ...
+21:08:57.711 INFO  base.CustomDriver -Element Login Link found with locator: xpath=>//a[contains(@href,'login')]
+21:08:58.288 INFO  base.CustomDriver -Clicked On :: Login Link
+21:08:58.303 INFO  base.CustomDriver -Element Email Field found with locator: id=>email
+21:08:58.372 INFO  base.CustomDriver -Send Keys on element :: Email Field with data :: satheesh.it47@gmail.com
+21:08:58.382 INFO  base.CustomDriver -Element Password Field found with locator: id=>password
+21:08:58.443 INFO  base.CustomDriver -Send Keys on element :: Password Field with data :: 123abc
+21:08:58.453 INFO  base.CustomDriver -Element Login Button found with locator: xpath=>//input[@value='Login']
+21:09:00.809 INFO  base.CustomDriver -Clicked On :: Login Button
+21:09:01.205 INFO  base.BaseTest -****** Before Method ******
+21:09:01.218 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:09:07.075 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:09:07.075 INFO  utilities.Util -Wait 500 for  All Courses link ..
+21:09:07.600 INFO  base.CustomDriver -Element Category Dropdown found with locator: xpath=>//select[@name='categories']
+21:09:07.670 INFO  base.CustomDriver -Selected option : Software Development
+21:09:07.671 INFO  utilities.Util -Wait 2000 for  Selected courses results page ..
+21:09:09.820 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:09:09.821 INFO  base.CustomDriver -Actual courses count 3
+21:09:09.829 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:09:09.829 INFO  base.CheckPoint -test-filter-by-category-01.Filter by category verification :-> PASS
+21:09:09.829 INFO  base.CheckPoint -Test Method Successful
+21:09:09.830 INFO  base.TestListeners -onTestSuccess -> Test Method Name: filterByCategory
+21:09:09.843 INFO  base.BaseTest -****** Before Method ******
+21:09:09.851 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:09:10.822 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:09:11.341 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+21:09:11.417 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: rest api
+21:09:11.429 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+21:09:11.462 INFO  base.CustomDriver -Clicked On :: Search Course Button
+21:09:12.493 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:09:12.502 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+21:09:12.502 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+21:09:12.502 INFO  base.CheckPoint -Test Method Successful
+21:09:12.503 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+21:09:12.504 INFO  base.BaseTest -****** Before Method ******
+21:09:12.515 INFO  base.CustomDriver -Element All Courses Link found with locator: xpath=>//a[contains(text(),'ALL COURSES')]
+21:09:13.503 INFO  base.CustomDriver -Clicked On :: All Courses Link
+21:09:14.025 INFO  base.CustomDriver -Element Search Course Field found with locator: xpath=>//input[@id='search']
+21:09:14.107 INFO  base.CustomDriver -Send Keys on element :: Search Course Field with data :: javascript
+21:09:14.114 INFO  base.CustomDriver -Element Search Course Button found with locator: xpath=>//button[@type='submit']
+21:09:14.145 INFO  base.CustomDriver -Clicked On :: Search Course Button
+21:09:15.169 INFO  base.CustomDriver -Element List found with: class=>zen-course-list
+21:09:15.176 INFO  base.CustomDriver -Current URL is :: https://courses.letskodeit.com/courses
+21:09:15.176 INFO  base.CheckPoint -test-verify-search-course-01.Search course verification :-> PASS
+21:09:15.176 INFO  base.CheckPoint -Test Method Successful
+21:09:15.177 INFO  base.TestListeners -onTestSuccess -> Test Method Name: verifySearchCourse
+21:09:15.844 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test

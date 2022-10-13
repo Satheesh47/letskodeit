@@ -1,5 +1,6 @@
 package com.letskodeit.base;
 
+import java.io.IOException;
 import java.util.Arrays;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -93,8 +94,12 @@ public class TestListeners extends BaseTest implements ITestListener {
 		CustomDriver cd = new CustomDriver(driver);
 		String path = cd.takeScreenshot(result.getName(), browser);
 		
-		extentTest.get().fail("<b>" + "<font color = red>" + "Screenshot of failure" + "</font>"+"</b>",
-				MediaEntityBuilder.createScreenCaptureFromPath(path).build());		
+		try {
+			extentTest.get().fail("<b>" + "<font color = red>" + "Screenshot of failure" + "</font>"+"</b>",
+					MediaEntityBuilder.createScreenCaptureFromPath(path).build());
+		} catch (IOException e) {
+			e.printStackTrace();
+		}		
 		
 		String logText = "<b>" + "Test Method " + methodName + " Failed" + "</b>";
 		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
